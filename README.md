@@ -28,9 +28,9 @@ If you are familiar with [Tailwind CSS](https://tailwindcss.com/) it is recommen
 - If a GitHub user hasn't added their name, show their username where the name would be without the `@`.
 - If a GitHub user's bio is empty, show the text "This profile has no bio".
 - If a Github user's profile picture is empty use the default picture for empty profile (no_image.png)
-- If any of the location, website, Twitter, or company properties are empty, show the text "Not Available" with gray font color.
+- If any of the location, website, Twitter, or company properties are empty, show the text "Not Available" with grey font color.
 - Website, Twitter, and company information should all be links to those resources by opening in a new tab when a user clicks in it.
 
 # Important to know
 
-- Take in consideration when doing the assessment, the public Github API Search has a limit of 60 attempts for every hour as described in the [following link](https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api?apiVersion=2022-11-28#primary-rate-limit-for-unauthenticated-users).
+- Take in consideration when doing the assessment, the public Github API Search has a limit of 60 attempts for every hour as described in the [following link](https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api?apiVersion=2022-11-28#primary-rate-limit-for-unauthenticated-users). Do not hit it frecuently to avoid getting time out from Github (API rate limit exceeded)
